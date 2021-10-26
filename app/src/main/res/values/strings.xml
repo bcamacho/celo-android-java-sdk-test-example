@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Celo Java SDK Test</string>
+    <string name="first_fragment_label">Celo Blockchain Address Lookup</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="address">Address</string>
+    <string name="cUSD">cUSD</string>
+    <string name="celo">CELO</string>
+    <string name="locked">Locked Celo</string>
+</resources>
