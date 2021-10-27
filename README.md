@@ -19,7 +19,7 @@ __Follow the steps below to learn the steps to resolve issues for usage in your 
 ## Configure Android development environment
 
 - Install android studio v4.2.1 OSX
-- Accessed https://github.com/blaize-tech/celo-sdk-java
+- Goto: https://github.com/blaize-tech/celo-sdk-java
 - Review readme.md
 - Installed dependencies
   - Org.web3j:core:4.6.0-android
