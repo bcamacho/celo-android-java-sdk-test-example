@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 class CeloKit extends AsyncTask<String, Void, String> {
     private static final String TAG = "CeloKit AsyncTask";
     private Context mContext;
-    private String private_key = "5b33f11978ca7e213736f15e2875818b7482b26db54800f9c6419cb601512fa8";
+    private String private_key = "PRIVATE_KEY";
     private String password = "SomeSp3cialPa55word_!*!";
     private Credentials credentials;
 
@@ -193,7 +193,7 @@ class CeloKit extends AsyncTask<String, Void, String> {
                 Log.d("encryptedMessage",cipherText.toString());
                 Log.d("decryptString",decryptString);
 
-// todo: temp solution
+                // todo: temp solution
                 String mnemonic = mWalletDetails.getString("mnemonic",null);
                 credentials = WalletUtils.loadBip39Credentials(password, mnemonic);
                 contractKit.addAccount(credentials);
